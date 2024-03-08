@@ -1,7 +1,7 @@
 const Container = ({children}) => {
   return (
-    <div class="card" style={{width: "100%"}}>
-    <div class="card-body">
+    <div className="card" style={{width: "100%"}}>
+    <div className="card-body">
       {children}
     </div>
   </div>
